@@ -49,7 +49,7 @@ pip install requests
 2. Replace this line in the code:
 
 ```python
-API_KEY = "c6048d32493ec1fada776b7eb9a225ed"
+API_KEY = "your_api_key_here"
 ```
 
 ---
