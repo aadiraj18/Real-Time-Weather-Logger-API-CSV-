@@ -57,7 +57,7 @@ API_KEY = "your_api_key_here"
 ## ▶️ How to Run
 
 ```bash
-python weather_logger.py
+python 01_weather_logger.py
 ```
 
 ---
@@ -88,7 +88,7 @@ Real time weather logger
 ```
 weather-logger/
 │
-├── weather_logger.py
+├── 01_weather_logger.py
 ├── weather_logs.csv
 └── README.md
 ```
@@ -163,22 +163,23 @@ This module works with the data generated from:
 
 ## 📂 Project Structure
 
-```id="n1kx2s"
-weather-visualizer/
+```
+Real-Time-Weather-Logger-API-CSV/
 │
-├── weather_visualizer.py   # Visualization script
-├── weather_logs.csv        # Data file (generated from main project)
-└── README.md               # Documentation
+├── weather_logger.py              # Main project
+├── 02_Graph_with_matplotlib.py   # Visualization script (Add-on)
+├── weather_logs.csv               # Generated data
+└── README.md
 ```
 
 ---
 
 ## ▶️ How to Run
 
-```bash id="m8yz9x"
+```bash
 git clone https://github.com/aadiraj18/Real-Time-Weather-Logger-API-CSV.git
 cd Real-Time-Weather-Logger-API-CSV
-python weather_visualizer.py
+python 02_Graph_with_matplotlib.py
 ```
 
 ---
@@ -197,9 +198,7 @@ python weather_visualizer.py
 
 ## ⚠️ Requirements
 
-Make sure you have installed:
-
-```bash id="6db5tr"
+```bash
 pip install matplotlib
 ```
 
@@ -232,4 +231,6 @@ B.Tech CSE (Data Science)
 ## ⭐ Support
 
 If you like this project, consider giving it a star ⭐ on GitHub!
+
+---
 
